@@ -7,19 +7,53 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  
+ 
   min-height: 100vh;
   background-color: #f4e4ba;
   background-image: url("newback.jpg");
   background-size: cover;
+
+}
+.heading{
+ height: 150px;
+width: 500px;
+
+position: absolute;
+right: 10vw;
+top: 8vh;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-style:inherit;
+font-size: 2.5rem;
+font-weight: 800;
+text-align: center;
+padding: 1rem;
+color: #fff;
+text-decoration:overline;
+text-shadow: 0 0 1rem black;
+
+}
+h2{
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-shadow: 0 0 1rem black;
+}
+
+p{
+  font-size: 1.5rem;
 }
 
 .container {
   background-color: #fff;
   padding: 2rem;
   border-radius: 1rem;
-  min-height: 55vh;
-  width: 45vh;
-  margin-right:30vw ;
+  min-height: 75vh;
+  width: 65vh;
+  margin-right:40vw ;
+   background-image: url("17453.jpg");
+   background-size: cover;
+   color: #fff;
+   
  
 }
 
@@ -56,33 +90,44 @@ form input {
 }
 
 .select-container img {
-  max-width: 2rem;
+  max-width: 3rem;
 }
 
 .select-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 6rem;
-  border-radius: 0.5rem;
-  border: 1px solid lightgray;
+  width: 7rem;
+  
+  
 }
 
 .select-container select {
   font-size: 1rem;
+  height: 1.5rem;
   
 }
 
 .msg {
-  margin: 2rem 0 2rem 0;
+  margin: 3rem 0 2rem 0;
+  font-size: 2rem;
+  font-weight: 600;
 }
 
 form button {
   height: 2.5rem;
-  background-color: #af4d98;
+  background-color: darkgray;
   color: #fff;
   font-size: 1.15rem;
+  font-weight: 700;
   cursor: pointer;
+  text-shadow: 0 0 1rem black;
+  box-shadow: 0 0 1.5rem black;
+  margin-top: 2.5rem;
+
+}
+form button:active{
+  background-color: transparent;
 }
 
 
@@ -96,11 +141,12 @@ form button {
   background-image: url("photorealistic-money-concept.jpg");
   background-size: cover;
 }
+
 .container {
   
   padding: 2rem;
   border-radius: 1rem;
-  min-height: 55vh;
+  height: 55vh;
   width: 45vh;
   background-image: url("17453.jpg");
   background-size: cover;
@@ -115,6 +161,7 @@ h2{
 }
 .msg{
   font-size: 1.5rem;
+  
 }
 .select-container {
   display: flex;
@@ -125,6 +172,14 @@ h2{
 
   
 }
+
+.select-container select{
+  height: 1.2rem;
+  width: 4rem;
+}
+.select-container img {
+  max-width: 2rem;
+}
 form button {
   height: 2.5rem;
   background-color: darkgray;
@@ -134,10 +189,16 @@ form button {
   text-shadow: 0 0 1rem black;
   cursor: pointer;
   box-shadow:0 0 1.5rem black ;
+  margin-top: 1rem;
 }
 p{
   font-size: 1.5rem;
 }
 
 
+}
+@media(min-width:1px) and (max-width:1160px){
+.heading{
+display: none;
+}
 }
