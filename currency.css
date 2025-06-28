@@ -130,7 +130,10 @@ form button {
   background-color: darkgray;
   color: #fff;
   font-size: 1.15rem;
+  font-weight: 700;
+  text-shadow: 0 0 1rem black;
   cursor: pointer;
+  box-shadow:0 0 1.5rem black ;
 }
 p{
   font-size: 1.5rem;
