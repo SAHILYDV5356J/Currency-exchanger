@@ -103,7 +103,7 @@ form button {
   min-height: 55vh;
   width: 45vh;
   background-image: url("17453.jpg");
-  background-size: contain;
+  background-size: cover;
   color: #fff;
   margin: 0 1rem 0 1rem;
 
